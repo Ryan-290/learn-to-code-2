@@ -100,10 +100,10 @@ export default function Section2_1() {
     //void 타입은 함수의 반환값이 없을 때 사용한다.
 
     //never 타입
-    function funcB(): never {
-        throw new Error("error");
-    }
-    funcB();
+    // function funcB(): never {
+    //     throw new Error("error");
+    // }
+    // funcB();
     //never 타입은 함수의 반환값이 나오기 힘ㄷ
 
     return (
